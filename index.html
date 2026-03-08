@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>Antonella Cook - Protección Inteligente</title>
+    <link rel="stylesheet" href="styles/css.css" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Solo para PC: mensaje de redirección -->
+    <style>
+      @media screen and (min-width: 769px) {
+        .mobile-only {
+          display: block !important;
+        }
+        body > *:not(.desktop-message) {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Mensaje para desktop -->
+    <div class="desktop-message">
+      <div class="message-content">
+        <i class="fas fa-mobile-alt"></i>
+        <h2>¡Hola! ¿cómo estás?</h2>
+        <p>
+          Soy Antonella, esta página solo puedes visualizarla mediante tu
+          celular.
+        </p>
+        <p>Escanea el código QR o accede desde tu dispositivo móvil.</p>
+        <div class="qr-placeholder">
+          <i class="fas fa-qrcode"></i>
+        </div>
+        <small>Antonella Cook - Todos los derechos reservados 2025</small>
+      </div>
+    </div>
+
+    <!-- Contenido solo para móvil -->
+    <div class="mobile-content">
+      <!-- HEADER: Imagen fondo 100% alto -->
+      <header
+        class="hero"
+        style="
+          background-image: url(&quot;https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80&quot;);
+        "
+      >
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <h1 class="hero-title">Protege hoy lo que más amas</h1>
+          <p class="hero-subtitle">No dejes el futuro de tu familia al azar.</p>
+          <p class="hero-description">
+            Te ayudo a elegir el seguro ideal para que tengas<br />tranquilidad
+            financiera pase lo que pase.
+          </p>
+          <button class="btn-primary" id="btnProteger">
+            Quiero proteger a mi familia
+          </button>
+        </div>
+      </header>
+
+      <!-- SECCIÓN MORADA con gradiente -->
+      <section class="purple-section">
+        <div class="purple-gradient">
+          <h2 class="section-title">
+            ¿Cómo puedo ayudarte a asegurar tu tranquilidad financiera?
+          </h2>
+
+          <div class="method-badge">
+            Mi método <strong>"Protección Inteligente"</strong>
+          </div>
+
+          <!-- Pasos -->
+          <div class="steps-container">
+            <!-- Paso 1 -->
+            <div class="step-card">
+              <h4 class="step-number">PRIMER PASO</h4>
+              <h3 class="step-title">Diagnóstico personalizado</h3>
+              <p class="step-text">
+                Reviso tu situación actual: ingresos, deudas, dependientes y
+                metas. Con esa información definimos cuánto y qué tipo de
+                cobertura realmente necesitas.
+              </p>
+            </div>
+
+            <!-- Paso 2 -->
+            <div class="step-card">
+              <h4 class="step-number">SEGUNDO PASO</h4>
+              <h3 class="step-title">Diseño de tu plan ideal</h3>
+              <p class="step-text">
+                Te presento opciones claras y comparativas de seguros de vida.
+                Te explico beneficios, coberturas, exclusiones y costos sin
+                tecnicismos.
+              </p>
+            </div>
+
+            <!-- Paso 3 -->
+            <div class="step-card">
+              <h4 class="step-number">TERCER PASO</h4>
+              <h3 class="step-title">Acompañamiento continuo</h3>
+              <p class="step-text">
+                No solo contratas un seguro. Tienes una asesora que te acompaña
+                ante cualquier duda, actualización o gestión futura.
+              </p>
+            </div>
+          </div>
+
+          <!-- Botón morado sección -->
+          <div class="action-container">
+            <button class="btn-primary" id="btnHablar">
+              Quiero hablar con Antonella
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECCIÓN FOTO + TEXTO -->
+      <section class="profile-section">
+        <!-- Foto vertical (retrato) estilo profesional -->
+        <div class="profile-image-container-vertical">
+          <img
+            src="https://images.unsplash.com/photo-1544717305-2782549b5136?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+            alt="Antonella Cook - Asesora financiera"
+            class="profile-image-vertical"
+          />
+        </div>
+
+        <h2 class="profile-soy">SOY</h2>
+        <h3 class="profile-name">ANTONELLA COOK</h3>
+
+        <p class="profile-text">
+          Asesora especializada en seguros de vida<br />y planificación
+          financiera.
+        </p>
+
+        <p class="profile-text">
+          Mi misión es ayudarte a proteger el futuro económico de tu familia con
+          decisiones inteligentes y responsables.
+        </p>
+
+        <p class="profile-text">
+          Sé que hablar de seguros puede ser incómodo o confuso. Por eso mi
+          enfoque es simple: claridad, transparencia y acompañamiento real.
+        </p>
+
+        <div class="profile-list">
+          <p><strong>Trabajo con personas que quieren:</strong></p>
+          <ul>
+            <li>
+              <i class="fas fa-check-circle"></i> Proteger a su familia ante
+              cualquier imprevisto
+            </li>
+            <li>
+              <i class="fas fa-check-circle"></i> Asegurar estabilidad
+              financiera
+            </li>
+            <li>
+              <i class="fas fa-check-circle"></i> Evitar que sus seres queridos
+              enfrenten deudas
+            </li>
+            <li>
+              <i class="fas fa-check-circle"></i> Construir tranquilidad a largo
+              plazo
+            </li>
+          </ul>
+        </div>
+
+        <p class="profile-commitment">
+          Mi compromiso es que tomes una decisión informada, sin presión y con
+          total confianza.
+        </p>
+
+        <button class="btn-primary btn-full" id="btnFuturo">
+          Quiero asegurar mi futuro hoy
+        </button>
+      </section>
+
+      <!-- Footer simple -->
+      <footer>
+        <p>Antonella Cook -</p>
+        <p>Todos los derechos reservados 2025</p>
+      </footer>
+    </div>
+
+    <script src="javascript/script.js"></script>
+  </body>
+</html>
